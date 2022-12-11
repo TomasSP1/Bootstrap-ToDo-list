@@ -1,0 +1,72 @@
+
+/* #main-list-div {
+    min-width: 1300px;
+} */
+body {
+    width: 95vw;
+}
+#box {
+    min-width: 80%;
+}
+
+
+li {
+    /* display: flex; */
+    border-bottom: 1px solid grey;
+    /* text-align: center; */
+    margin-top: 3px;
+}
+ul {
+    /* width: 100%; */
+    list-style: none;
+    position: relative;
+    right: -15%;   
+    text-align: center;
+}
+
+#exit {
+    float: right;
+    color: red;
+    font-size: 30px;
+    cursor: pointer;
+    
+}
+
+#check_font {
+    color: green;
+    font-size: 30px;
+}
+
+#font {
+    font-size: 25px;
+}
+
+#recycle_bin {
+    font-size: 20px;
+}
+
+.item0 {
+    min-width: 5%;
+}
+.item1{
+    min-width: 20%;
+}
+.item2{
+    min-width: 10%;
+}
+.item3{
+    width: 10%;
+}
+.item4{
+    width: 15%;
+}
+.item5{
+    width: 20%;
+}
+.item6{
+    width: 25%;
+}
+.item7 {
+    min-width: 5%;
+}
+
