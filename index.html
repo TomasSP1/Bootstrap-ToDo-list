@@ -18,14 +18,14 @@
                 <div class="form-group row">
                     <label for="subject" class="col-3 col-form-label">Subject</label>
                     <div class="col-9">
-                        <input type="text" class="form-control mas" id="subject" required>
+                        <input type="text" class="form-control mas" id="subject">
                     </div>
                 </div>
                 <div class="form-group row">
                     <label for="priority" class="col-3 col-form-label">Priority</label>
                     <div class="col-9">
-                        <select class="custom-select mas" id="priority" required>
-                            <option value="" disabled selected>Choose...</option>
+                        <select class="custom-select mas" id="priority">
+                            <!-- <option value="" disabled selected>Choose...</option> -->
                             <option value="High">High</option>
                             <option value="Normal">Normal</option>
                             <option value="Low">Low</option>
@@ -35,14 +35,14 @@
                 <div class="form-group row">
                     <label for="date" class="col-3 col-form-label">Due date</label>
                     <div class="col-9">
-                        <input type="date" class="form-control mas" id="date" required>
+                        <input type="date" class="form-control mas" id="date">
                     </div>
                 </div>
                 <div class="form-group row">
                     <label for="status" class="col-3 col-form-label">Status</label>
                     <div class="col-9">
-                        <select  class="custom-select mas" id="status" required>
-                            <option value="" disabled selected>Choose...</option>
+                        <select  class="custom-select mas" id="status">
+                            <!-- <option value="" disabled selected>Choose...</option> -->
                             <option value="Complete">Complete</option>
                             <option value="In Progress">In Progress</option>
                             <option value="New">New</option>
@@ -52,8 +52,8 @@
                 <div class="form-group row">
                     <label for="percent" class="col-3 col-form-label">Percent Completed</label>
                     <div class="col-9">
-                        <select class="custom-select mas" id="percent" required>
-                            <option value="" disabled selected >Choose...</option>
+                        <select class="custom-select mas" id="percent">
+                            <!-- <option value="" disabled selected >Choose...</option> -->
                             <option value="100">100%</option>
                             <option value="75">75%</option>
                             <option value="50">50%</option>
@@ -69,18 +69,18 @@
     </div>
 </div>
 
-<div class="row my-5" id="main-list-div">
+<div class="row" id="main-list-div">
     <!-- col-12 mt-3 d-flex justify-content-center align-items-center flex-column" -->
-    <div id="box" class="d-flex flex-column">
+    <div id="box">
         <ul class="list-group list-group-horizontal" id="first-list">
-            <li class="list-group-item item0" id="font"><i class="fas fa-project-diagram"></i></li>
-            <li class="list-group-item item1">Subject</li>
-            <li class="list-group-item item2">Priority</li>
-            <li class="list-group-item item3">Due date</li>
-            <li class="list-group-item item4">Status</li>
-            <li class="list-group-item item5">Percent completed</li>
-            <li class="list-group-item item6">Modified on</li>
-            <li class="list-group-item item7" id="recycle_bin"   ><i class="fa-solid fa-trash"></i></li>
+            <li class="item0" id="font"><i class="fas fa-project-diagram"></i></li>
+            <li class="item1">Subject</li>
+            <li class="item2">Priority</li>
+            <li class="item3">Due date</li>
+            <li class="item4">Status</li>
+            <li class="item5">Percent completed</li>
+            <li class="item6">Modified on</li>
+            <li class="item7" id="recycle_bin"><i class="fa-solid fa-trash"></i></li>
         </ul>
     </div>
 </div>
